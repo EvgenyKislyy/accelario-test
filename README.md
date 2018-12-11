@@ -1,7 +1,9 @@
 # accelario-test
 
 run command example
+
 1st parameter - source folder (should exist)
+
 2nd parameter - destination folder (should exist)
 
 
