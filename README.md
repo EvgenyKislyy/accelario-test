@@ -1,5 +1,9 @@
 # accelario-test
 
+build jar command
+
+mvn package
+
 run command example
 
 1st parameter - source folder (should exist)
