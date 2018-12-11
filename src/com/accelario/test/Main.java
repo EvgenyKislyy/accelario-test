@@ -50,6 +50,7 @@ public class Main {
     }
 
     private void copyCreditCardLines(String destinationFolderPath, Path filePath) {
+    	System.out.println("Start new");
         try (Stream<String> stream = Files.lines(filePath);
              PrintWriter out = new PrintWriter(destinationFolderPath + filePath.getFileName())) {
 
@@ -66,6 +67,7 @@ public class Main {
         } catch (IOException e) {
             e.printStackTrace();
         }
+        System.out.println("Stop");
     }
 
 }
